@@ -16,7 +16,7 @@ import model.Food;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mFoodName,mCalories;
-    private TextView trytext;
+    private TextView trytext,trytext2;
     private Button mbtnsave;
     private DatabaseHandler dba;
     @Override
