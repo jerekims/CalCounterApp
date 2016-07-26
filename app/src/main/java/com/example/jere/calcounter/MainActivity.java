@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import data.DatabaseHandler;
@@ -15,6 +16,7 @@ import model.Food;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mFoodName,mCalories;
+    private TextView trytext;
     private Button mbtnsave;
     private DatabaseHandler dba;
     @Override
