@@ -16,6 +16,9 @@ import model.Food;
 public class MainActivity extends AppCompatActivity {
     private EditText mFoodName,mCalories;
     private Button mbtnsave;
+    private  Button nbtnone;
+    private Button mbtntwo;
+    private Button mbtnthree;
     private DatabaseHandler dba;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
